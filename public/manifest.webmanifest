@@ -1,0 +1,13 @@
+{
+  "name": "DOWNTOWN Pizza",
+  "short_name": "DOWNTOWN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f1e8",
+  "theme_color": "#f6f1e8",
+  "icons": [
+    { "src": "/downtown.png", "sizes": "any", "type": "image/png", "purpose": "any" }
+  ]
+}

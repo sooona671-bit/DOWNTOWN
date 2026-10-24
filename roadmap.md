@@ -1,0 +1,15 @@
+# DOWNTOWN mobile polish
+- [ ] Remove excessive mobile bottom safe-area spacing and verify navigation stays flush while scrolling and resizing.
+- [x] Replace mobile shell, header, scroll containment and dock geometry; preserve existing visual design.
+- [x] Check Home, Search, Orders, empty/populated Cart, Profile and Details in Chromium/WebKit at 430×932, 393×852 and 412×915 with simulated safe areas; verify dynamic resizing and desktop/tablet framing.
+- [ ] Check authenticated Checkout on phones — blocked by the existing food-ordering app’s unconfigured Google sign-in; physical phones are not available here.
+- [x] Add screenshot upload and AI layout findings in Profile without changing existing screens.
+- [x] Verify upload/preview/removal, live AI Gateway screenshot analysis, and navigation tests.
+- [ ] Verify signed-in screenshot-to-report flow in the app — blocked until the first Lovable Cloud account is created through sign-in.
+- [x] Rebuild mobile scroll containment so content passes behind the status bar and the dock touches the viewport bottom.
+- [x] Verify navigation, scrolling, safe areas and unchanged desktop/tablet framing at device sizes in Chromium and WebKit with simulated safe areas; physical-device checks are not available in this environment.
+- [x] Inspect and preserve the uploaded app implementation and assets.
+- [x] Consolidate mobile viewport, safe-area and floating dock CSS without changing desktop/tablet layout.
+- [x] Fix circular profile photo, camera badge and Add/Change/Remove controls.
+- [x] Remove unintended teal and verify images load.
+- [x] Verify app rendering and existing navigation/cart/profile flows across phone, tablet and desktop sizes.
